@@ -1,0 +1,32 @@
+{
+  "orders": [
+    {
+      "order_id": "ORD-2601",
+      "customer_location": "Gate-A",
+      "destination_type": "gated_apartment",
+      "distance_km": 4.2,
+      "priority": "normal",
+      "order_time": "10:30",
+      "delivery_deadline": "12:00",
+      "estimated_service_time": 12,
+      "package_weight": 3.5,
+      "special_constraint": "security_gate"
+    }
+  ],
+  "riders": [
+    {
+      "rider_id": "R-014",
+      "name": "Maya Chen",
+      "current_location": "Hub East",
+      "capacity": 8,
+      "current_load": 2,
+      "recent_workload": 9,
+      "daily_earnings": 586,
+      "availability": true,
+      "vehicle_type": "bike",
+      "speed_kmph": 31,
+      "max_distance_km": 58,
+      "reliability_score": 0.96
+    }
+  ]
+}
