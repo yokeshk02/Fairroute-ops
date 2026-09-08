@@ -235,7 +235,7 @@ importers:
         specifier: ^10.5.5
         version: 10.5.5(postcss@8.5.28)
       cross-env:
-        specifier: ^10.0.0
+        specifier: ^10.1.0
         version: 10.1.0
       drizzle-kit:
         specifier: ^0.31.4
