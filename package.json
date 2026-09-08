@@ -58,7 +58,7 @@
     "express": "^5.2.1",
     "framer-motion": "^13.2.0",
     "input-otp": "^1.5.0",
-    "jose": "6.1.0",
+    "jose": "6.2.12",
     "lucide-react": "^1.43.0",
     "mysql2": "^3.24.4",
     "nanoid": "^5.1.5",
