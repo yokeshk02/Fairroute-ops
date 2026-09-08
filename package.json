@@ -90,7 +90,7 @@
     "add": "^2.0.9",
     "autoprefixer": "^10.5.5",
     "cross-env": "^10.1.0",
-    "drizzle-kit": "^0.31.4",
+    "drizzle-kit": "^0.31.10",
     "esbuild": "^0.25.0",
     "pnpm": "^10.15.1",
     "postcss": "^8.5.28",
