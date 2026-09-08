@@ -1,0 +1,4 @@
+minimumReleaseAgeExclude:
+  - electron-to-chromium@1.5.424
+  - lucide-react@1.43.0
+  - mysql2@3.24.4
