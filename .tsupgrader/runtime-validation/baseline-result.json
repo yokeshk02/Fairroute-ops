@@ -1,0 +1,59 @@
+{
+  "planHash": "b91e85e24fed1c6cbb48897224b7fde10f5e146f55b9c002b39e4747f8fabaff",
+  "phase": "baseline",
+  "recordedAtUtc": "2026-09-08T18:10:57.5748632Z",
+  "retryCount": 0,
+  "resetBaseline": false,
+  "result": {
+    "setupSucceeded": true,
+    "setupDurationMs": 6057,
+    "setupFailureOutput": null,
+    "assertions": [
+      {
+        "name": "tsc-no-emit",
+        "kind": "process",
+        "verificationMethod": "exit-code",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\r\n\u003E fairroute-ops@1.0.0 check C:\\Users\\yogid\\Downloads\\fairroute-ops\r\n\u003E tsc --noEmit\r\n\r\n",
+        "durationMs": 23187
+      },
+      {
+        "name": "tests-pass",
+        "kind": "process",
+        "verificationMethod": "test-results",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\r\n\u003E fairroute-ops@1.0.0 test C:\\Users\\yogid\\Downloads\\fairroute-ops\r\n\u003E vitest run\r\n\r\n\r\n\u001B[1m\u001B[7m\u001B[36m RUN \u001B[39m\u001B[27m\u001B[22m \u001B[36mv2.1.9 \u001B[39m\u001B[90mC:/Users/yogid/Downloads/fairroute-ops\u001B[39m\r\n\r\n \u001B[32m\u2713\u001B[39m server/auth.logout.test.ts \u001B[2m(\u001B[22m\u001B[2m1 test\u001B[22m\u001B[2m)\u001B[22m\u001B[90m 8\u001B[2mms\u001B[22m\u001B[39m\r\n\r\n\u001B[2m Test Files \u001B[22m \u001B[1m\u001B[32m1 passed\u001B[39m\u001B[22m\u001B[90m (1)\u001B[39m\r\n\u001B[2m      Tests \u001B[22m \u001B[1m\u001B[32m1 passed\u001B[39m\u001B[22m\u001B[90m (1)\u001B[39m\r\n\u001B[2m   Start at \u001B[22m 23:40:56\r\n\u001B[2m   Duration \u001B[22m 1.13s\u001B[2m (transform 110ms, setup 0ms, collect 253ms, tests 8ms, environment 0ms, prepare 448ms)\u001B[22m\r\n\r\n",
+        "durationMs": 3929,
+        "testResults": {
+          "testFramework": "vitest",
+          "runnerDetectedFrom": "package_json",
+          "testsTotal": 1,
+          "testsPassed": 1,
+          "testsFailed": 0,
+          "testsSkipped": 0,
+          "parseFailed": false
+        }
+      },
+      {
+        "name": "dev-server-serves-home",
+        "kind": "http-probe",
+        "verificationMethod": "http-status",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": null,
+        "outputSample": "HTTP 200\n\u003C!doctype html\u003E\n\u003Chtml lang=\u0022en\u0022\u003E\n  \u003Chead\u003E\n    \u003Cscript type=\u0022module\u0022\u003Eimport { injectIntoGlobalHook } from \u0022/@react-refresh\u0022;\ninjectIntoGlobalHook(window);\nwindow.$RefreshReg$ = () =\u003E {};\nwindow.$RefreshSig$ = () =\u003E (type) =\u003E type;\u003C/script\u003E\n\n    \u003Cscript type=\u0022module\u0022 src=\u0022/@vite/client\u0022\u003E\u003C/script\u003E\n\n    \u003Cmeta charset=\u0022UTF-8\u0022 /\u003E\n    \u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1.0, maximum-scale=1\u0022 /\u003E\n    \u003Cmeta name=\u0022theme-color\u0022 content=\u0022#1c6b5a\u0022 /\u003E\n    \u003Cmeta name=\u0022description\u0022 content=\u0022FairRoute \u2014 fairness-aware rider assignment operations console.\u0022 /\u003E\n    \u003Ctitle\u003EFairRoute Ops\u003C/title\u003E\n    \u003Clink rel=\u0022preconnect\u0022 href=\u0022https://fonts.googleapis.com\u0022 /\u003E\n    \u003Clink rel=\u0022preconnect\u0022 href=\u0022https://fonts.gstatic.com\u0022 crossorigin /\u003E\n    \u003Clink href=\u0022https://fonts.googleapis.com/css2?family=DM\u002BSans:wght@400;500;600;700;800\u0026family=DM\u002BSerif\u002BDisplay\u0026display=swap\u0022 rel=\u0022stylesheet\u0022 /\u003E\n    \u003Cscript src=\u0022/__manus__/debug-collector.js\u0022 defer\u003E\u003C/script\u003E\n  \u003C/head\u003E\n  \u003Cbody\u003E\n    \u003Cscript id=\u0022manus-runtime\u0022\u003Ewindow.__MANUS_HOST_DEV__ = true;\n(function(){\u0022use strict\u0022;var Mr={exports:{}},Kn={};/**\n * @license React\n * react-jsx-runtime.production.js\n *\n * Copyright (c) Meta Platforms, Inc. and affiliates.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */var Fc;function dm(){if(Fc)return Kn;Fc=1;var r=Symbol.for(\u0022react.transitional.element\u0022),i=Symbol.for(\u0022react.fragment\u0022);function c(s,d,m){var x=null;if(m!==void 0\u0026\u0026(x=\u0022\u0022\u002Bm),d.key!==void 0\u0026\u0026(x=\u0022\u0022\u002Bd.key),\u0022key\u0022in d){m={};for(var R in d)R!==\u0022key\u0022\u0026\u0026(m[R]=d[R])}else m=d;return d=m.ref,{$$typeof:r,type:s,key:x,ref:d!==void 0?d:null,props:m}}return Kn.Fragment=i,Kn.jsx=c,Kn.jsxs=c,Kn}var Ic;function fm(){return Ic||(Ic=1,Mr.exports=dm()),Mr.exports}var h=fm(),Ar={exports:{}},Pn={},Rr={exports:{}},Nr={};/**\n * @license React\n * scheduler.production.js\n *\n * Copyright (c) Meta Platforms, Inc. and affiliates.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */var tu;function hm(){return tu||(tu=1,function(r){function i(A,q){var B=A.length;A.push(q);t:for(;0\u003CB;){var bt=B-1\u003E\u003E\u003E1,p=A[bt];if(0\u003Cd(p,q))A[bt]=q,A[B]=p,B=bt;else break t}}function c(A){return A.length===0?null:A[0]}function s(A){if(A.length===0)return null;var q=A[0],B=A.pop();if(B!==q){A[0]=B;t:for(var bt=0,p=A.length,O=p\u003E\u003E\u003E1;bt\u003CO;){var X=2*(bt\u002B1)-1,G=A[X],Z=X\u002B1,st=A[Z];if(0\u003Ed(G,B))Z\u003Cp\u0026\u00260\u003Ed(st,G)?(A[bt]=st,A[Z]=B,bt=Z):(A[bt]=G,A[X]=B,bt=X);else if(Z\u003Cp\u0026\u00260\u003Ed(st,B))A[bt]=st,A[Z]=B,bt=Z;else break t}}return q}function d(A,q){var B=A.sortIndex-q.sortIndex;return B!==0?B:A.id-q.id}if(r.unstable_now=void 0,typeof performance==\u0022object\u0022\u0026\u0026typeof performance.now==\u0022function\u0022){var m=performance;r.unstable_now=function(){return m.now()}}else{var x=Date,R=x.now();r.unstable_now=function(){return x.now()-R}}var C=[],v=[],D=1,j=null,J=3,at=!1,$=!1,nt=!1,ct=!1,ht=typeof setTimeout==\u0022function\u0022?setTimeout:null,St=typeof clearTimeout==\u0022function\u0022?clearTimeout:null,_=typeof setImmediate\u003C\u0022u\u0022?setImmediate:null;function Y(A){for(var q=c(v);q!==null;){if(q.callback===null)s(v);else if(q.startTime\u003C=A)s(v),q.sortIndex=q.expirationTime,i(C,q);else break;q=c(v)}}function H(A){if(nt=!1,Y(A),!$)if(c(C)!==null)$=!0,it||(it=!0,Bt());else{var q=c(v);q!==null\u0026\u0026Mt(H,q.startTime-A)}}var it=!1,rt=-1,V=5,xt=-1;function Be(){return ct?!0:!(r.unstable_now()-xt\u003CV)}function te(){if(ct=!1,it){var A=r.unstable_now();xt=A;var q=!0;try{t:{$=!1,nt\u0026\u0026(nt=!1,St(rt),rt=-1),at=!0;var B=J;try{e:{for(Y(A),j=c(C);j!==null\u0026\u0026!(j.expirationTime\u003EA\u0026\u0026Be());){var bt=j.callback;if(typeof bt==\u0022function\u0022){j.callback=null,J=j.priorityLevel;var p=bt(j.expirationTime\u003C=A);if(A=r.unstable_now(),typeof p==\u0022function\u0022){j.callback=p,Y(A),q=!0;break e}j===c(C)\u0026\u0026s(C),Y(A)}else s(C);j=c(C)}if(j!==null)q=!0;else{var O=c(v);O!==null\u0026\u0026Mt(H,O.startTime-A),q=!1}}break t}finally{j=null,J=B,at=!1}q=void 0}}finally{q?Bt():it=!1}}}var Bt;if(typeof _==\u0022function\u0022)Bt=function(){_(te)};else if(typeof MessageChannel\u003C\u0022u\u0022){var me=new MessageChannel,Se=me.port2;m\n\u2026[truncated]",
+        "durationMs": 23
+      }
+    ]
+  }
+}
